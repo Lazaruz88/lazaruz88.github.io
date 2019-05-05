@@ -80,7 +80,7 @@
             <br>
             <div class="row search-row">
                 <input type="text" class="search" placeholder="What do you need help with?">
-                <a class="buttonsearch btn btn-info btn-lg" href="search-results.html">Search</a>
+                <button class="buttonsearch btn btn-info btn-lg">Search</button>
             </div>
         </div>
     </div>
@@ -88,92 +88,238 @@
     <!-- MAIN SECTION -->
     <div class="container featured-area-default padding-30">
         <div class="row">
+            <!-- ARTICLE OVERVIEW SECTION -->
             <div class="col-md-8 padding-20">
-
-                <!-- ARTICLE CATEGORIES SECTION -->
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="fb-heading">
-                            Frequently Asked Questions
+                    <!-- BREADCRUMBS -->
+                    <div class="breadcrumb-container">
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa fa-home"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="knowledge-base.html">Knowledge Base</a>
+                            </li>
+                            <li class="active">General</li>
+                        </ol>
+                    </div>
+                    <!-- END BREADCRUMBS -->
+                    <!-- ARTICLES -->
+                    <div class="fb-heading">
+                        <i class="fa fa-folder"></i> Category: General
+                        <span class="cat-count">(10)</span>
+                    </div>
+                    <hr class="style-three">
+                    <div class="panel panel-default">
+                        <div class="article-heading-abb">
+                            <a href="single-article.html">
+                                <i class="fa fa-pencil-square-o"></i> How to change account password?</a>
                         </div>
-                        <hr class="style-three">
-                        <div class="row">
-                            <div class="col-md-12">
-
-                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingOne">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Collapsible Group Item #1
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                            <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                                sustainable VHS.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingTwo">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
-                                                    Collapsible Group Item #2
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                            <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                                sustainable VHS.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingThree">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
-                                                    Collapsible Group Item #3
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                            <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                                coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
-                                                sustainable VHS.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                        <div class="article-info">
+                            <div class="art-date">
+                                <a href="#">
+                                    <i class="fa fa-calendar-o"></i> 20 May, 2016 </a>
+                            </div>
+                            <div class="art-category">
+                                <a href="#">
+                                    <i class="fa fa-folder"></i> Account Settings </a>
+                            </div>
+                            <div class="art-comments">
+                                <a href="#">
+                                    <i class="fa fa-comments-o"></i> 4 Comments </a>
                             </div>
                         </div>
+                        <div class="article-content">
+                            <p class="block-with-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet finibus dui. Fusce ac nulla nec ex ornare vehicula
+                                non nec mi. Cras eget nisi sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec viverra faucibus magna sed interdum. Phasellus ultrices sagittis
+                                molestie. Sed sit amet nisl id risus egestas semper. In porta, arcu eu dignissim vestibulum,
+                                sapien justo imperdiet enim, sed facilisis quam justo in neque. Aliquam fermentum arcu eget
+                                hendrerit efficitur.
+                            </p>
+                        </div>
+                        <div class="article-read-more">
+                            <a href="single-article.html" class="btn btn-default btn-wide">Read more...</a>
+                        </div>
                     </div>
+
+                    <div class="panel panel-default">
+                        <div class="article-heading-abb">
+                            <a href="single-article.html">
+                                <i class="fa fa-pencil-square-o"></i> How to change currency in gomac?</a>
+                        </div>
+                        <div class="article-info">
+                            <div class="art-date">
+                                <a href="#">
+                                    <i class="fa fa-calendar-o"></i> 20 May, 2016 </a>
+                            </div>
+                            <div class="art-category">
+                                <a href="#">
+                                    <i class="fa fa-folder"></i> Admin Panel </a>
+                            </div>
+                            <div class="art-comments">
+                                <a href="#">
+                                    <i class="fa fa-comments-o"></i> 10 Comments </a>
+                            </div>
+                        </div>
+                        <div class="article-content">
+                            <p class="block-with-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet finibus dui. Fusce ac nulla nec ex ornare vehicula
+                                non nec mi. Cras eget nisi sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec viverra faucibus magna sed interdum. Phasellus ultrices sagittis
+                                molestie. Sed sit amet nisl id risus egestas semper. In porta, arcu eu dignissim vestibulum,
+                                sapien justo imperdiet enim, sed facilisis quam justo in neque. Aliquam fermentum arcu eget
+                                hendrerit efficitur.
+                            </p>
+                        </div>
+                        <div class="article-read-more">
+                            <a href="single-article.html" class="btn btn-default btn-wide">Read more...</a>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="article-heading-abb">
+                            <a href="single-article.html">
+                                <i class="fa fa-pencil-square-o"></i> How to edit order details?</a>
+                        </div>
+                        <div class="article-info">
+                            <div class="art-date">
+                                <a href="#">
+                                    <i class="fa fa-calendar-o"></i> 20 May, 2016 </a>
+                            </div>
+                            <div class="art-category">
+                                <a href="#">
+                                    <i class="fa fa-folder"></i> Orders </a>
+                            </div>
+                            <div class="art-comments">
+                                <a href="#">
+                                    <i class="fa fa-comments-o"></i> 0 Comments </a>
+                            </div>
+                        </div>
+                        <div class="article-content">
+                            <p class="block-with-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet finibus dui. Fusce ac nulla nec ex ornare vehicula
+                                non nec mi. Cras eget nisi sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec viverra faucibus magna sed interdum. Phasellus ultrices sagittis
+                                molestie. Sed sit amet nisl id risus egestas semper. In porta, arcu eu dignissim vestibulum,
+                                sapien justo imperdiet enim, sed facilisis quam justo in neque. Aliquam fermentum arcu eget
+                                hendrerit efficitur.
+                            </p>
+                        </div>
+                        <div class="article-read-more">
+                            <a href="single-article.html" class="btn btn-default btn-wide">Read more...</a>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="article-heading-abb">
+                            <a href="single-article.html">
+                                <i class="fa fa-pencil-square-o"></i> How to print stock barcode?</a>
+                        </div>
+                        <div class="article-info">
+                            <div class="art-date">
+                                <a href="#">
+                                    <i class="fa fa-calendar-o"></i> 20 May, 2016 </a>
+                            </div>
+                            <div class="art-category">
+                                <a href="#">
+                                    <i class="fa fa-folder"></i> Stocks </a>
+                            </div>
+                            <div class="art-comments">
+                                <a href="#">
+                                    <i class="fa fa-comments-o"></i> 12 Comments </a>
+                            </div>
+                        </div>
+                        <div class="article-content">
+                            <p class="block-with-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet finibus dui. Fusce ac nulla nec ex ornare vehicula
+                                non nec mi. Cras eget nisi sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec viverra faucibus magna sed interdum. Phasellus ultrices sagittis
+                                molestie. Sed sit amet nisl id risus egestas semper. In porta, arcu eu dignissim vestibulum,
+                                sapien justo imperdiet enim, sed facilisis quam justo in neque. Aliquam fermentum arcu eget
+                                hendrerit efficitur.
+                            </p>
+                        </div>
+                        <div class="article-read-more">
+                            <a href="single-article.html" class="btn btn-default btn-wide">Read more...</a>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="article-heading-abb">
+                            <a href="single-article.html">
+                                <i class="fa fa-pencil-square-o"></i> How to generate barcode?</a>
+                        </div>
+                        <div class="article-info">
+                            <div class="art-date">
+                                <a href="#">
+                                    <i class="fa fa-calendar-o"></i> 20 May, 2016 </a>
+                            </div>
+                            <div class="art-category">
+                                <a href="#">
+                                    <i class="fa fa-folder"></i> Stocks </a>
+                            </div>
+                            <div class="art-comments">
+                                <a href="#">
+                                    <i class="fa fa-comments-o"></i> 7 Comments </a>
+                            </div>
+                        </div>
+                        <div class="article-content">
+                            <p class="block-with-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet finibus dui. Fusce ac nulla nec ex ornare vehicula
+                                non nec mi. Cras eget nisi sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec viverra faucibus magna sed interdum. Phasellus ultrices sagittis
+                                molestie. Sed sit amet nisl id risus egestas semper. In porta, arcu eu dignissim vestibulum,
+                                sapien justo imperdiet enim, sed facilisis quam justo in neque. Aliquam fermentum arcu eget
+                                hendrerit efficitur.
+                            </p>
+                        </div>
+                        <div class="article-read-more">
+                            <a href="single-article.html" class="btn btn-default btn-wide">Read more...</a>
+                        </div>
+                    </div>
+                    <!-- END ARTICLES -->
+
+                    <!-- PAGINATION -->
+                    <nav class="text-center">
+                        <ul class="pagination">
+                            <li class="disabled">
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">
+                                        <i class="fa fa-arrow-circle-left"></i> Previous</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="enabled">
+                                <a href="#">2
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="enabled">
+                                <a href="#">3
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="enabled">
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">Next
+                                        <i class="fa fa-arrow-circle-right"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- END PAGINATION -->
                 </div>
             </div>
-            <!-- END ARTICLES CATEOGIRES SECTION -->
+            <!-- END ARTICLES OVERVIEW SECTION-->
             <!-- SIDEBAR STUFF -->
             <div class="col-md-4 padding-20">
                 <div class="row margin-bottom-30">
@@ -288,6 +434,7 @@
         </div>
     </div>
     <!-- END MAIN SECTION -->
+
     <!-- FOOTER -->
     <div class="container-fluid footer marg30">
         <div class="container">
