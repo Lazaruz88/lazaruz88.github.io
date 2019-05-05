@@ -31,7 +31,7 @@ GEM
       jekyll (>= 2.4)
     jekyll-extract-element (0.0.7)
       jekyll (~> 3.3)
-      nokogiri (= 1.8.2)
+      nokogiri (= 1.8.5)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
