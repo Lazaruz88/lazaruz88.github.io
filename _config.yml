@@ -12,8 +12,8 @@ newsletter_action:
 logo: /siteicon.png
 description: Knowledge base for tn-host.
 author:
-  name: Tranquility Networks
-  email: admin@tn-host.com
+  name:
+  email:
   twitter: # twitter username without the @ symbol
 social:
   name: Tranquility Networks
