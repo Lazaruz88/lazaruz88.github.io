@@ -52,7 +52,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "post"
+      layout: "default"
   -
     scope:
       type: "posts"
