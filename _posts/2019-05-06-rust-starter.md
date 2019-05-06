@@ -1,6 +1,6 @@
 ---
 date: 2019-05-06
-title: FiveM Introduction
+title: Rust Introduction
 categories:
   - Rust
 description: Getting started with Rust
