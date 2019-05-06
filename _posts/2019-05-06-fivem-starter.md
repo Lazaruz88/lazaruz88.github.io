@@ -111,9 +111,9 @@ First time hosting a FiveM server? Don’t worry, we’re here to help.
 
 ## Required step:
 Once it’s ordered and set up, you’re going to need a license key from FiveM.
-You can get it for free at their site here https://keymaster.fivem.net/
+You can get it for free at their site [here](https://keymaster.fivem.net/)
 
-Once you have a key ready open up the gamepanel and navigate to Configuration -> Startup Parameter.
+Once you have a key ready open up the gamepanel and navigate to `Configuration` then `Startup Parameter`.
 Paste the key in the box there and click save.
 You can now start up the server and it should run without any issues.
 
