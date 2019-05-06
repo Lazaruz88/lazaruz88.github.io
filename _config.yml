@@ -3,7 +3,7 @@
 
 title: Tranquility Networks
 url: "https://tn-host.com"
-baseurl: "https://help.tn-host.com"
+baseurl:
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
