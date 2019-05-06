@@ -7,7 +7,7 @@ description: Getting started with FiveM
 type: Document
 ---
 
-First time hosting a FiveM server? Don’t worry, we’re here to help.
+### First time hosting a FiveM server? Don’t worry, we’re here to help.
 
 ## Required step:
 Once it’s ordered and set up, you’re going to need a license key from FiveM.
@@ -36,7 +36,7 @@ OneSync will allow you to have slots up to 64. With OneSync disabled max slots i
 FiveM addon/plugin is called a resource. It’s fairly easy to set up once you understand the basics of it.
 You can find a lot of good resources [here](https://forum.fivem.net/c/development/releases) or on GitHub.
 
-## Here’s how to install a resource:
+### Here’s how to install a resource:
 Once you have picked out and downloaded a resource you want to add, you will need to upload the folder to your FiveM resource folder. I would recommend using a FTP client to do so.
 You can find the SFTP info under `Configuration` then `SFTP Settings`.
 
