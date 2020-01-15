@@ -42,4 +42,4 @@ Paper is very easy to set up, easy to configure, runs smoothly and you have the 
 
 
 
-If you have more questions, don't hesitate to contact us trough a ticket or on Discord!
+If you have more questions, don't hesitate to contact us through a ticket or on Discord!
