@@ -13,21 +13,21 @@ First time hosting a Minecraft server? Don’t worry, we’re here to help.
 Minecraft has many different versions of servers, so we'll give you a short explanation of the most common ones.
 
 * Vanilla  
-It's a compeletely regular Minecraft server, without any mods or plugins.  
-Commonly used by groups of friends that just wants to enjoy a few hours togheter on Minecraft.
+It's a completely regular Minecraft server, without any mods or plugins.  
+Commonly used by groups of friends that just wants to enjoy a few hours together on Minecraft.
 
 * Paper and Spigot  
 Spigot is a plugin capable server, allowing you to add modifications to your server.
-Spigot on it's own is a much more performance friendly compared to a vanilla server.
+Spigot on it's own is much more performance friendly compared to a vanilla server.
 See examples of plugins [here](https://www.spigotmc.org/resources/)
 
 Paper is a fork of Spigot, giving the server even better performance.  
 It supports most of the plugins Spigot can use, but not all.
 
-Both Paper and Spigot can be joined by a unmodified client, which makes it a lot easier for clients to join.
+Both Paper and Spigot can be joined by an unmodified client, which makes it a lot easier for clients to join.
 
 * Forge  
-Forge is a mod compatible version, allwoing to to make changes and/or add new content.
+Forge is a mod compatible version, allowing to to make changes and/or add new content.
 Mods can be found at [CurseForge](https://www.curseforge.com/minecraft/modpacks)
 
 * Other  
