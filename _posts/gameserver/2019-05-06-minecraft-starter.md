@@ -12,11 +12,11 @@ First time hosting a Minecraft server? Don’t worry, we’re here to help.
 ## Selecting what type of Minecraft server you want to have
 Minecraft has many different versions of servers, so we'll give you a short explanation of the most common ones.
 
-*Vanilla
+* Vanilla
 It's a compeletely regular Minecraft server, without any mods or plugins.
 Commonly used by groups of friends that just wants to enjoy a few hours togheter on Minecraft.
 
-* Paper` and Spigot
+* Paper and Spigot
 Spigot is a plugin capable server, allowing you to add modifications to your server.
 Spigot on it's own is a much more performance friendly compared to a vanilla server.
 See examples of plugins [here](https://www.spigotmc.org/resources/)
@@ -35,6 +35,7 @@ There are several other Minecraft server versions. Search on your own, or contac
 
 * To sum it up:
 If you're planning to run a vanilla server, we recommend selecting `Paper`
+
 Paper is very easy to set up, easy to configure, runs smoothly and you have the possibility to add plugins at a later point.
 
 
