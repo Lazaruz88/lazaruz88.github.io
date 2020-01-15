@@ -7,7 +7,6 @@ description: Getting started with Rust
 type: Document
 ---
 
-# Rust Introduction
 First time hosting a Rust server? Don’t worry, we’re here to help.
 
 ## First Steps:
