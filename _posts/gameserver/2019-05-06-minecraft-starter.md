@@ -27,7 +27,7 @@ It supports most of the plugins Spigot can use, but not all.
 Both Paper and Spigot can be joined by an unmodified client, which makes it a lot easier for clients to join.
 
 * Forge  
-Forge is a mod compatible version, allowing to to make changes and/or add new content.
+Forge is a mod compatible version, allowing you to make changes and/or add new content.
 Mods can be found at [CurseForge](https://www.curseforge.com/minecraft/modpacks)
 
 * Other  
