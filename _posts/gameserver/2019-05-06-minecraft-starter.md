@@ -14,7 +14,7 @@ Minecraft has many different versions of servers, so we'll give you a short expl
 
 * Vanilla  
 It's a completely regular Minecraft server, without any mods or plugins.  
-Commonly used by groups of friends that just wants to enjoy a few hours together on Minecraft.
+Commonly used by groups of friends that just want to enjoy a few hours together on Minecraft.
 
 * Paper and Spigot  
 Spigot is a plugin capable server, allowing you to add modifications to your server.
