@@ -34,4 +34,4 @@ Example: `This will be the first line \n And this will be the second line.`
 * URL
 The URL for your server. This is what comes up when clicking the "Visit Website" button on the server browser.
 
-If you have more questions, don't hesitate to contact us trough a ticket or on Discord!
+If you have more questions, don't hesitate to contact us through a ticket or on Discord!

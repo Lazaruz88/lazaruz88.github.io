@@ -52,4 +52,4 @@ The resource should now be loaded and started.
 
  
 
-If you have more questions, feel free to contact us trough a ticket or on Discord.
+If you have more questions, feel free to contact us through a ticket or on Discord.

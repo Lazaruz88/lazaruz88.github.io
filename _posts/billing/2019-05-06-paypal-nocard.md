@@ -19,4 +19,4 @@ You can pay Invoices from the My Invoices section.
 
  
 
-If you have more questions, feel free to contact us trough a ticket or on Discord.
+If you have more questions, feel free to contact us through a ticket or on Discord.

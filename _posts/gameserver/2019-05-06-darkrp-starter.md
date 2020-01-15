@@ -33,4 +33,4 @@ A good place to start will be to read trough it's config files to get a understa
 You can find the main config at garrysmod/addons/darkrpmodification/lua/darkrp_config
 
 
-If you have any questions don't hesitate to contact us trough a ticket or at discord!
+If you have any questions don't hesitate to contact us through a ticket or at discord!
